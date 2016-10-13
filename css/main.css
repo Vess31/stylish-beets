@@ -8,6 +8,11 @@ h1 {
   font-family: 'PT Sans', sans-serif;
   font-size: 1.5rem;
 }
+
+.a {
+  list-style-type: none;
+}
+
 a,
 a:first-child {
   color: #8f2440;
@@ -16,4 +21,15 @@ a:first-child {
   text-decoration: inherit;
   font-size: 1.125rem;
   line-height: 1.5;
+  list-style: none;
+
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: inherit;
+}
+
+p time {
+  font-size: 1.5rem;
 }
