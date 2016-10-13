@@ -7,6 +7,17 @@ img {
   width: 100%;
 }
 
+blockquote p {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  font-family: "PT serif", serif;
+  font-style: italic;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: 0.8rem;
+}
 h1 {
   font-weight: bolder;
   font-family: "PT Sans", sans-serif;
