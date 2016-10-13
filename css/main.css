@@ -9,6 +9,10 @@ h1 {
   font-size: 1.5rem;
 }
 
+.b {
+  list-style-type: lower-greek;
+}
+
 .a {
   list-style-type: none;
 }
