@@ -5,16 +5,15 @@ html {
 
 h1 {
   font-weight: bolder;
-  color: #3f1622;
-  font-size: 2rem;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.5rem;
 }
-
-header ol {
-  list-style: none;
-}
-ol li {
-  list-style-type: lower-greek;
-}
-img {
-  width: 100%;
+a,
+a:first-child {
+  color: #8f2440;
+  font-weight: bolder;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: inherit;
+  font-size: 1.125rem;
+  line-height: 1.5;
 }
