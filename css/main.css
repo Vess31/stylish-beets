@@ -7,16 +7,21 @@ img {
   width: 100%;
 }
 
-blockquote p {
+blockquote {
   line-height: 1.5;
   font-size: 1.5rem;
   font-family: "PT serif", serif;
   font-style: italic;
+  font-weight: bold;
+  text-align: center;
 }
 
 figcaption {
+  font-family: "PT serif", serif;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.5;
 }
 
 h1 {
@@ -30,12 +35,22 @@ h2 {
   color: #3f1622;
 }
 
-ol  {
+ol {
   list-style-type: lower-greek;
 }
- nav ol {
-   list-style: none;
- }
+
+nav ol {
+  list-style: none;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dt:first-child {
+  line-height: 2;
+}
+
 a,
 a:first-child {
   color: #8f2440;
@@ -51,6 +66,11 @@ a:hover {
   text-decoration: inherit;
 }
 
+p {
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+  text-align: center;
+}
 
 p time {
   font-size: 1.5rem;
@@ -61,5 +81,9 @@ ul {
 }
 
 small {
+  font-size: 0.8rem;
+}
+
+footer a[href="#"] {
   font-size: 0.8rem;
 }
